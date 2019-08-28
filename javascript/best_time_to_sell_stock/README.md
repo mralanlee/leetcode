@@ -44,3 +44,5 @@ In the first iteration of the loop, it will set the minPrice to the first iterat
 
 Next it will check if the minimum profit will be cheaper than the current evaluation of prices at current index minus the minimum price.
 If it is greater than the max profit than champion the maxprofit to be greating the current.
+
+This solution stores state of the minimum price, and maximum profit and it is able to handle it one pass. Yielding `O(n)`
