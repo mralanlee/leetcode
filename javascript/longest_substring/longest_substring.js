@@ -20,3 +20,5 @@ var lengthOfLongestSubstring = function(s) {
 
   return greatest;
 };
+
+module.exports = lengthOfLongestSubstring;
