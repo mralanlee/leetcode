@@ -10,3 +10,5 @@ var maxSubArray = function(nums) {
 
   return currMax;
 };
+
+module.exports = maxSubArray;
