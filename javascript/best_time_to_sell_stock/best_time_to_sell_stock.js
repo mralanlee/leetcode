@@ -13,7 +13,7 @@ var maxProfit = function(prices) {
 
     let profit = prices[i] - minPrice;
     if (profit > maxProfit) {
-      maxProfit = curr;
+      maxProfit = profit;
     }
   }
   return maxProfit;
