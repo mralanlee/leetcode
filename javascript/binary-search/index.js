@@ -19,3 +19,5 @@ const helper = (nums, target, left, right) => {
     [check > target]: () => helper(nums, target, left, mid - 1)
   }.true();
 };
+
+module.export = search;
